@@ -1,0 +1,170 @@
+
+#hero-image {
+   width: 60%;
+   border-radius: 5px;
+
+}
+img{
+    border-radius: 5px;
+}
+.hard img {
+    width: 60%;
+    border-radius: 5px;
+ 
+ }
+
+.hero-float{
+    padding: 3rem;
+}
+.hero img {
+    background-color: #ffffff;
+    background-size: 20%;
+}
+
+.bridge{
+    background-image:url('https://i.postimg.cc/gj24yH1h/image.png');
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    padding: 5rem;
+    color:white;
+}
+.first-section h1 {
+    padding-bottom: 5rem;
+
+}
+.first-section p {
+    padding: 20px;
+    background-color:rgb(19, 6, 97);
+    margin: 2rem 0;
+    color: white;
+    border-radius: 5px;
+}
+.icon-container{
+    padding: 1rem;
+    margin:1rem;
+}
+.icon-container ul li{
+    margin: rem;
+    font-size: 2rem;
+    list-style-type: none;
+    display: inline;
+}
+.hover-list:hover{
+    color: white !important;
+    transition: .5s ease;
+}
+
+.second-section {
+    padding: 20px;
+}
+.second-section li {
+    height: 2rem;
+    margin: 1rem;
+
+}
+.port img {
+    margin:1rem;
+    width:10rem;
+}
+.port h2 {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+
+}
+.hard h1 {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+
+}
+.hard img {
+    width: 15rem;
+}
+
+
+/* about */
+.about-container{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.hard-section h1{
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+.hardware p {
+    padding: 20px;
+    background-color:rgb(19, 6, 97);
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+    border-radius: 5px;
+}
+
+*{
+    box-sizing: border-box;
+}
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+ input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  } 
+  
+  /* Style the container/contact section */
+  .contact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  .web p {
+    padding: 20px;
+    background-color:rgb(19, 6, 97);
+    margin: 2rem 0;
+    color: white;
+    border-radius: 5px;
+}
+.is-vcenter{
+    margin-bottom: auto;
+    margin-top: auto;
+}
